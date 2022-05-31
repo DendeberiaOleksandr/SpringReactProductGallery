@@ -56,7 +56,7 @@ Server provides REST API for application.
 ### Category
 | Method  | Name | Details | Permission |
 | ------------- | ------------- | ------------- | ------------- |
-| GET  | /api/v1/categories  | | Fetch all items | ROLE_USER |
+| GET  | /api/v1/categories  | Fetch all items | ROLE_USER |
 | GET  | /api/v1/categories/{id}  | Fetch item by id | ROLE_USER |
 | POST | /api/v1/categories | Create category. Request Body: CategoryCreateDto | ROLE_ADMIN |
 | DELETE | /api/v1/categories | Delete all items | ROLE_ADMIN |
