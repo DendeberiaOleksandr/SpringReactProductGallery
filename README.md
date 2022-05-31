@@ -55,6 +55,14 @@ Server provides REST API for application.
 ## Endpoints
 ### Authentication
 Authentication is provided by JWT. To get token request `POST /api/v1/login` with params `username`, `password`. To refresh `access_token` request `GET /api/v1/token/refresh` with `refreshToken` in `Authorization` Header.
+### User
+| Method  | Name | Details | Permission |
+| ------------- | ------------- | ------------- | ------------- |
+| **GET**  | /api/v1/users  | Fetch users page. Request params: page, size, sort, filter | ROLE_ADMIN |
+| **POST** | /api/v1/users | Create user. Request Body: UserCreateDto | Permit All |
+| **DELETE** | /api/v1/users | Delete all items | ROLE_ADMIN |
+| **DELETE** | /api/v1/users/{id} | Delete item by id | ROLE_ADMIN |
+| **PATCH** | /api/v1/users/{id} | Update by id. Request Body: UsersUpdateDto | ROLE_ADMIN |
 ### Category
 | Method  | Name | Details | Permission |
 | ------------- | ------------- | ------------- | ------------- |
