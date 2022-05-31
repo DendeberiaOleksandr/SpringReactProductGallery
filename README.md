@@ -32,6 +32,9 @@
 ![image](https://user-images.githubusercontent.com/57542777/171259839-3a8ebf93-89ab-436a-adc6-eaac103f0980.png)
 ### Products List
 ![image](https://user-images.githubusercontent.com/57542777/171260027-b46705eb-aef7-4c83-be4c-4817e59542d3.png)
+### Product Details
+![image](https://user-images.githubusercontent.com/57542777/171260839-e1bd8909-5031-4f1d-8d15-58402c911a06.png)
+
 ### Categories
 ![image](https://user-images.githubusercontent.com/57542777/171260064-d6b9851b-e9c7-4a73-b021-673a3478545e.png)
 
