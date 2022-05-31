@@ -37,4 +37,7 @@
 
 ### Categories
 ![image](https://user-images.githubusercontent.com/57542777/171260064-d6b9851b-e9c7-4a73-b021-673a3478545e.png)
+### On Category Click
+![image](https://user-images.githubusercontent.com/57542777/171261188-8cdaf936-b27d-4581-9d12-65fb882feedd.png)
+
 
