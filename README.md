@@ -74,4 +74,19 @@ Some resources can be filtered and sorted. [Documentaion](https://github.com/per
 | **DELETE** | /api/v1/categories | Delete all items | ROLE_ADMIN |
 | **DELETE** | /api/v1/categories/{id} | Delete item by id | ROLE_ADMIN |
 | **PATCH** | /api/v1/categories/{id} | Update by id. Request Body: CategoryUpdateDto | ROLE_ADMIN |
+### Role
+| Method  | Name | Details | Permission |
+| ------------- | ------------- | ------------- | ------------- |
+| **GET**  | /api/v1/roles  | Fetch all items | ROLE_ADMIN |
+| **GET**  | /api/v1/roles/{id}  | Fetch item by id | ROLE_ADMIN |
+### Product
+| Method  | Name | Details | Permission |
+| ------------- | ------------- | ------------- | ------------- |
+| **GET**  | /api/v1/products  | Fetch products page. Request params: page, size, sort, filter | ROLE_USER |
+| **GET**  | /api/v1/products/{id}  | Fetch item by id | ROLE_USER |
+| **POST** | /api/v1/products | Create product. Request Body: ProductCreateDto | ROLE_ADMIN |
+| **DELETE** | /api/v1/products | Delete all items | ROLE_ADMIN |
+| **DELETE** | /api/v1/products/{id} | Delete item by id | ROLE_ADMIN |
+| **PATCH** | /api/v1/products/{id} | Update by id. Request Body: ProductsUpdateDto | ROLE_ADMIN |
+
   
