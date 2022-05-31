@@ -53,13 +53,15 @@ Server provides REST API for application.
     - registrationDate
     - roleId
 ## Endpoints
+### Authentication
+Authentication is provided by JWT. To get token request `POST /api/v1/login` with params `username`, `password`. To refresh `access_token` request `GET /api/v1/token/refresh` with `refreshToken` in `Authorization` Header.
 ### Category
 | Method  | Name | Details | Permission |
 | ------------- | ------------- | ------------- | ------------- |
-| GET  | /api/v1/categories  | Fetch all items | ROLE_USER |
-| GET  | /api/v1/categories/{id}  | Fetch item by id | ROLE_USER |
-| POST | /api/v1/categories | Create category. Request Body: CategoryCreateDto | ROLE_ADMIN |
-| DELETE | /api/v1/categories | Delete all items | ROLE_ADMIN |
-| DELETE | /api/v1/categories/{id} | Delete item by id | ROLE_ADMIN |
-| PATCH | /api/v1/categories/{id} | Update by id. Request Body: CategoryUpdateDto | ROLE_ADMIN |
+| **GET**  | /api/v1/categories  | Fetch all items | ROLE_USER |
+| **GET**  | /api/v1/categories/{id}  | Fetch item by id | ROLE_USER |
+| **POST** | /api/v1/categories | Create category. Request Body: CategoryCreateDto | ROLE_ADMIN |
+| **DELETE** | /api/v1/categories | Delete all items | ROLE_ADMIN |
+| **DELETE** | /api/v1/categories/{id} | Delete item by id | ROLE_ADMIN |
+| **PATCH** | /api/v1/categories/{id} | Update by id. Request Body: CategoryUpdateDto | ROLE_ADMIN |
   
