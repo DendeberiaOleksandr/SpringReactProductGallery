@@ -58,5 +58,8 @@ Server provides REST API for application.
 | ------------- | ------------- | ------------- |
 | GET  | /api/v1/categories  | | Fetch all items
 | GET  | /api/v1/categories/{id}  | Fetch item by id |
-| POST | /api/v1/categories | Create category. Requires body |
+| POST | /api/v1/categories | Create category. Request Body: CategoryCreateDto |
+| DELETE | /api/v1/categories | Delete all items |
+| DELETE | /api/v1/categories/{id} | Delete item by id |
+| PATCH | /api/v1/categories/{id} | Update by id. Request Body: CategoryUpdateDto |
   
