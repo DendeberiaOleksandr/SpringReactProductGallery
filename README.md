@@ -55,6 +55,8 @@ Server provides REST API for application.
 ## Endpoints
 ### Authentication
 Authentication is provided by JWT. To get token request `POST /api/v1/login` with params `username`, `password`. To refresh `access_token` request `GET /api/v1/token/refresh` with `refreshToken` in `Authorization` Header.
+### Sort and Filter
+Some resources can be filtered and sorted. [Documentaion](https://github.com/perplexhub/rsql-jpa-specification) of library for sort and filter. Format of sort and filter params is **RSQL**.
 ### User
 | Method  | Name | Details | Permission |
 | ------------- | ------------- | ------------- | ------------- |
